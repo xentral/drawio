@@ -1,13 +1,21 @@
 About
 -----
+This is a fork of the original draw.io project. The original project is a configurable diagramming/whiteboarding visualization application. draw.io is jointly owned and developed by JGraph Ltd and draw.io AG.
+
+
+Original README of source project:
+----------------------------------
+
+About
+-----
 draw.io, this project, is a configurable diagramming/whiteboarding visualization application. draw.io is jointly owned and developed by JGraph Ltd and draw.io AG.
 
-As well as running this project, we run a production-grade deployment of the diagramming interface at https://app.diagrams.net.
+As well as running this project, the maintainers of the original project run a production-grade deployment of the diagramming interface at https://app.diagrams.net.
 
 License
 -----------------
 
-The minified code authored by us in this repo is licensed under an Apache v2 license, but the sources to build those files are not in this repo. This is not an open source project.
+The minified code authored by the maintainers of the original project in this repo is licensed under an Apache v2 license, but the sources to build those files are not in this repo. This is not an open source project.
 
 The JGraph provided icons and diagram templates are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Additional terms may also apply where the icons are originally defined by a third-party copyright holder. We have checked in all cases that the original license allows use in this project. Also see the terms for using the draw.io logo below.
 
