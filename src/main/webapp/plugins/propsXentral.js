@@ -128,6 +128,7 @@ Draw.loadPlugin(function(ui) {
                         div.appendChild(p);
                     }
                 }
+                div.style = 'display: block;';
             }
             else
             {
