@@ -88,7 +88,7 @@ Draw.loadPlugin(function(ui) {
         {
             highlight.highlight(null);
             div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
-            div.style = 'display: none;';
+            div.style.display = 'none';
         }
         else
         {
@@ -103,7 +103,7 @@ Draw.loadPlugin(function(ui) {
             {
                 var label = Graph.sanitizeHtml(graph.getLabel(cell));
 
-                div.style = 'display: block;';
+                div.style.display = 'block';
 
 
                 if (label != null && label.length > 0)
