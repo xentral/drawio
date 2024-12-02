@@ -103,6 +103,8 @@ Draw.loadPlugin(function(ui) {
             {
                 var label = Graph.sanitizeHtml(graph.getLabel(cell));
 
+                div.style = 'display: block;';
+
 
                 if (label != null && label.length > 0)
                 {
@@ -128,7 +130,6 @@ Draw.loadPlugin(function(ui) {
                         div.appendChild(p);
                     }
                 }
-                div.style = 'display: block;';
             }
             else
             {
