@@ -99,7 +99,7 @@ Draw.loadPlugin(function(ui) {
                 highlight.highlight(graph.view.getState(cell));
             }
 
-            if (attrs != null)
+            if (attrs != null && attrs.has('detailInfo'))
             {
                 var label = Graph.sanitizeHtml(graph.getLabel(cell));
 
@@ -114,7 +114,7 @@ Draw.loadPlugin(function(ui) {
                 {
                     div.innerText = '';
                 }
-
+        /*
                 for (var i = 0; i < attrs.length; i++)
                 {
                     if (mxUtils.indexOf(ignored, attrs[i].nodeName) < 0 &&
@@ -130,6 +130,11 @@ Draw.loadPlugin(function(ui) {
                         div.appendChild(p);
                     }
                 }
+         */
+                var detailInfo = attrs.get('detailInfo');
+                var p = document.createElement('p');
+                p.innerHTML = detailInfo;
+                div.appendChild(p);
             }
             else
             {
