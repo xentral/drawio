@@ -95,8 +95,6 @@ Draw.loadPlugin(function(ui) {
 
             var attrs = (cell.value != null) ? cell.value.attributes : null;
 
-            if ()
-
             if (ui.editor.isChromelessView())
             {
                 highlight.highlight(graph.view.getState(cell));
