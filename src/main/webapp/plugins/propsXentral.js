@@ -4,6 +4,8 @@
  */
 Draw.loadPlugin(function(ui) {
 
+    var bpmnUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
+
     var div = document.createElement('div');
     div.style.background = Editor.isDarkMode() ? Editor.darkColor : '#ffffff';
     div.style.border = '1px solid gray';
@@ -135,7 +137,7 @@ Draw.loadPlugin(function(ui) {
 
                         var detailInfo = attrs[i].nodeValue;
                         var iframe = document.createElement('iframe');
-                        iframe.src = detailInfo;
+                        iframe.src = bpmnUrl;
                         div.appendChild(iframe);
                         // var p = document.createElement('p');
                         // p.innerHTML = detailInfo;
