@@ -92,6 +92,7 @@ Draw.loadPlugin(function(ui) {
         }
         else
         {
+            div.style.display = 'none';
             var attrs = (cell.value != null) ? cell.value.attributes : null;
 
             if (ui.editor.isChromelessView())
@@ -99,12 +100,9 @@ Draw.loadPlugin(function(ui) {
                 highlight.highlight(graph.view.getState(cell));
             }
 
-            if (attrs != null && attrs.has('detailInfo'))
+            if (attrs != null)
             {
                 var label = Graph.sanitizeHtml(graph.getLabel(cell));
-
-                div.style.display = 'block';
-
 
                 if (label != null && label.length > 0)
                 {
@@ -114,9 +112,10 @@ Draw.loadPlugin(function(ui) {
                 {
                     div.innerText = '';
                 }
-        /*
+
                 for (var i = 0; i < attrs.length; i++)
                 {
+                    /*
                     if (mxUtils.indexOf(ignored, attrs[i].nodeName) < 0 &&
                         attrs[i].nodeValue.length > 0)
                     {
@@ -129,12 +128,19 @@ Draw.loadPlugin(function(ui) {
                         p.innerHTML = attrs[i].nodeValue;
                         div.appendChild(p);
                     }
+                    */
+
+                    if (attrs[i].nodeName === 'detailInfo') {
+                        div.style.display = 'block';
+
+                        var detailInfo = attrs[i].nodeValue;
+                        var p = document.createElement('p');
+                        p.innerHTML = detailInfo;
+                        div.appendChild(p);
+                    }
                 }
-         */
-                var detailInfo = attrs.get('detailInfo');
-                var p = document.createElement('p');
-                p.innerHTML = detailInfo;
-                div.appendChild(p);
+
+
             }
             else
             {
