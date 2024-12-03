@@ -92,8 +92,10 @@ Draw.loadPlugin(function(ui) {
         }
         else
         {
-            div.style.display = 'none';
+
             var attrs = (cell.value != null) ? cell.value.attributes : null;
+
+            if ()
 
             if (ui.editor.isChromelessView())
             {
@@ -134,9 +136,12 @@ Draw.loadPlugin(function(ui) {
                         div.style.display = 'block';
 
                         var detailInfo = attrs[i].nodeValue;
-                        var p = document.createElement('p');
-                        p.innerHTML = detailInfo;
-                        div.appendChild(p);
+                        var iframe = document.createElement('iframe');
+                        iframe.src = detailInfo;
+                        div.appendChild(iframe);
+                        // var p = document.createElement('p');
+                        // p.innerHTML = detailInfo;
+                        // div.appendChild(p);
                     }
                 }
 
