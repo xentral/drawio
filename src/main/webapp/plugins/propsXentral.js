@@ -137,7 +137,7 @@ Draw.loadPlugin(function(ui) {
 
                         var detailInfo = attrs[i].nodeValue;
                         var iframe = document.createElement('iframe');
-                        iframe.src = bpmnUrl;
+                        iframe.src = bpmnUrl + detailInfo;
                         div.appendChild(iframe);
                         // var p = document.createElement('p');
                         // p.innerHTML = detailInfo;
