@@ -13,7 +13,11 @@ Draw.loadPlugin(function(ui) {
     div.style.padding = '10px';
     div.style.paddingTop = '0px';
     div.style.width = '20%';
+    div.style.float = 'right';
+    div.style.height = '100%';
+    div.style.overflow = 'auto';
     div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
+
 
     var graph = ui.editor.graph;
 
@@ -56,8 +60,8 @@ Draw.loadPlugin(function(ui) {
     {
         div.style.position = 'absolute';
         div.style.minWidth = '200px';
-        div.style.top = '40px';
-        div.style.right = '20px';
+        div.style.top = '0px';
+        div.style.right = '0px';
 
         document.body.appendChild(div);
     }
