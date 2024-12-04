@@ -136,13 +136,20 @@ Draw.loadPlugin(function(ui) {
                         div.style.display = 'block';
 
                         var detailInfo = attrs[i].nodeValue;
-                        var iframe = document.createElement('iframe');
-                        iframe.src = bpmnUrl + detailInfo;
-                        div.appendChild(iframe);
-                        // var p = document.createElement('p');
-                        // p.innerHTML = detailInfo;
-                        // div.appendChild(p);
+                        var p = document.createElement('p');
+                        p.innerHTML = detailInfo;
+                        div.appendChild(p);
                     }
+
+                    if (attrs[i].nodeName === 'detailUrl') {
+                        div.style.display = 'block';
+
+                        var detailUrl = attrs[i].nodeValue;
+                        var iframe = document.createElement('iframe');
+                        iframe.src = detailUrl;
+                        div.appendChild(iframe);
+                    }
+
                 }
 
 
@@ -201,4 +208,6 @@ Draw.loadPlugin(function(ui) {
             }, 0);
         };
     }
+
+
 });
