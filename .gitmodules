@@ -1,3 +1,3 @@
 [submodule "bpmn"]
-    path = "bpmn"
-    url = "https://github.com/xentral/bpmn.git"
+	path = bpmn
+	url = https://github.com/xentral/bpmn.git
