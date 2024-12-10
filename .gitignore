@@ -3,6 +3,8 @@ build
 classes
 node_modules
 .vscode/settings.json
+.idea
+.idea/*
 src/main/webapp/WEB-INF/lib/animal-sniffer-annotations-*.jar
 src/main/webapp/WEB-INF/lib/annotations-*.jar
 src/main/webapp/WEB-INF/lib/api-common-*.jar
@@ -50,3 +52,5 @@ src/main/webapp/WEB-INF/lib/protobuf-java-*.jar
 src/main/webapp/WEB-INF/lib/protobuf-java-util-*.jar
 src/main/webapp/WEB-INF/lib/re2j-*.jar
 src/main/webapp/WEB-INF/lib/threetenbp-*.jar
+/src/main/webapp/js/app.js
+/src/main/webapp/js/extensions.js
