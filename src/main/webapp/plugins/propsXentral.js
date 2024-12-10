@@ -4,8 +4,6 @@
  */
 Draw.loadPlugin(function(ui) {
 
-    var bpmnUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
-
     var div = document.createElement('div');
     div.style.background = Editor.isDarkMode() ? Editor.darkColor : '#ffffff';
     div.style.border = '1px solid gray';
@@ -18,8 +16,10 @@ Draw.loadPlugin(function(ui) {
     div.style.overflow = 'auto';
     div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
 
-
     var graph = ui.editor.graph;
+
+    var bpmnBaseUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
+    bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
 
     if (!ui.editor.isChromelessView())
     {
@@ -149,7 +149,7 @@ Draw.loadPlugin(function(ui) {
                         div.style.display = 'block';
 
                         var detailUrl = attrs[i].nodeValue;
-                        fetch(bpmnUrl + detailUrl)
+                        fetch(bpmnBaseUrl + detailUrl)
                             .then(response => response.text())
                             .then(markdown => {
                                 const html = marked(markdown);
