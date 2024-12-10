@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Time tracking cost">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M8 5.333V8l1 1m3.5.362h.5c.552 0 1 .482 1 1.077m-1.5-1.077h-.429c-.591 0-1.071.517-1.071 1.154 0 .637.48 1.154 1.071 1.154h.858c.591 0 1.071.516 1.071 1.154 0 .637-.48 1.153-1.071 1.153H12.5m0-4.615V8.67m0 5.307H12c-.552 0-1-.482-1-1.076m1.5 1.076v.693m-3.816-.038A6.667 6.667 0 1 1 14.592 7" class="Icon"/>
+  </g>
+</svg>

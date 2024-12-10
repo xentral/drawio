@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Package Reserved">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M14.67 6.234c0-.588-.296-1.135-.784-1.446L8.884 1.589a1.636 1.636 0 0 0-1.768 0L2.114 4.788a1.715 1.715 0 0 0-.784 1.446v6.73c0 .942.747 1.706 1.668 1.706H6m4.362-3.77h2.154m-3.23 3.77h4.307c.595 0 1.077-.482 1.077-1.077V9.285c0-.594-.482-1.076-1.077-1.076H9.285c-.594 0-1.077.482-1.077 1.076v4.308c0 .595.483 1.077 1.077 1.077Z" class="Icon"/>
+  </g>
+</svg>

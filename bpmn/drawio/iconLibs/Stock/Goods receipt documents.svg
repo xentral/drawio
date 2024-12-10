@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Goods receipt documents">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M14.667 10.333H9.333m5.334 2H9.333m2.667 2H9.333m-4.666-10h6.5c1.404 0 2.106 0 2.61.337a2 2 0 0 1 .553.552c.337.505.337 1.374.337 2.778M8 4.333l-.422-.844c-.35-.7-.67-1.404-1.445-1.695-.34-.127-.728-.127-1.504-.127-1.21 0-1.816 0-2.27.253a2 2 0 0 0-.772.772c-.254.454-.254 1.06-.254 2.27V7c0 3.143 0 4.714.977 5.69.866.867 2.202.964 4.69.975" class="Icon"/>
+  </g>
+</svg>

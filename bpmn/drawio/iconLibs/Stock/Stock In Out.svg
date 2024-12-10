@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Stock In Out">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M6 8v4m0 0-1.5-1.33M6 12l1.5-1.33M10 10V6m0 0L8.5 7.33M10 6l1.5 1.33M2.114 4.788a1.715 1.715 0 0 0-.784 1.446v6.73c0 .942.747 1.706 1.668 1.706h10.005c.92 0 1.667-.764 1.667-1.706v-6.73c0-.588-.296-1.135-.784-1.446L8.884 1.589a1.636 1.636 0 0 0-1.768 0L2.114 4.788Z" class="Icon"/>
+  </g>
+</svg>

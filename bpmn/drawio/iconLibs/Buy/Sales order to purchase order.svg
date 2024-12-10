@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Sales order to purchase order">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M6 8h4m0 0-1.846 2.223M10 8 8.154 5.777M6 1.33c-.33-.003-.67 0-1 .01m1 13.319c-.33.003-.67 0-1-.01M3.16 1.73c-.64.36-1.15.94-1.47 1.65m1.45 10.85c-.64-.36-1.15-.94-1.47-1.65M1.33 6v3.96M8 3.19c0-1.45.43-1.85 1.67-1.85 1.68 0 3.63-.19 4.59 1.66.41.78.41 1.81.41 3.89V9.1c0 2.082 0 3.113-.41 3.893-.96 1.852-2.91 1.662-4.59 1.661-1.24 0-1.67-.4-1.67-1.851" class="Icon"/>
+  </g>
+</svg>

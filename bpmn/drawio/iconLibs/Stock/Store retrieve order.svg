@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Store retrieve order">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M13.5 7.333v-.666c0-2.515 0-3.772-.827-4.553-.827-.78-2.158-.78-4.82-.78h-.706c-2.662 0-3.993 0-4.82.78C1.5 2.895 1.5 4.152 1.5 6.667v2.666c0 2.514 0 3.771.827 4.553.827.78 2.158.78 4.82.78h.706c2.662 0 3.993 0 4.82-.78.688-.65.804-1.629.823-3.386m-8.663-.833h5.334M6 11.5h3m3.5-.5s.736-1 1-1 1 1 1 1m-9-4.75L6.75 7.5l2.75-3" class="Icon"/>
+  </g>
+</svg>

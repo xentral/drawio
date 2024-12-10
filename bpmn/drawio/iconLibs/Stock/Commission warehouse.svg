@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Commission warehouse">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="m5.333 11.667 5.334-5.334M1.33 6.234c0-.588.296-1.135.784-1.446l5.002-3.199a1.636 1.636 0 0 1 1.768 0l5.002 3.199c.488.311.784.858.784 1.446v6.73c0 .942-.746 1.706-1.668 1.706H2.998c-.921 0-1.668-.764-1.668-1.706v-6.73Zm5.426.343a.833.833 0 1 1-1.179 1.179.833.833 0 0 1 1.179-1.179Zm3.667 3.667a.833.833 0 1 1-1.179 1.179.833.833 0 0 1 1.179-1.179Z" class="Icon"/>
+  </g>
+</svg>

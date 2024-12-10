@@ -1,0 +1,20 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="LoLB0JTkYT4aA2a7vMYg">
+    <mxGraphModel dx="1562" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="" TestProperty="some value to display 123&lt;br/&gt;&#xa;&lt;b&gt;Hello&lt;/b&gt; World&#xa;&lt;h2&gt;Next section&lt;/h2&gt;&#xa;&lt;p&gt;some paragraph&lt;/p&gt;&#xa;&lt;p&gt;another paragraph&lt;/p&gt;" id="testCircle">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+            <mxGeometry x="750" y="450" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" x-id="[object Element]" id="testSquare">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+            <mxGeometry x="870" y="450" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

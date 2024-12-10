@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="EAN generator">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M13.333 7.333 14.667 8A6.667 6.667 0 0 0 1.888 5.333m.779 3.334L1.333 8a6.667 6.667 0 0 0 12.779 2.667M5 5.25v3.5m2-3.5v2.5m2-2.5v3m2-3v2m0 3.4v.1m-2-.1v.1m-2-.1v.1m-2-.1v.1" class="Icon"/>
+  </g>
+</svg>

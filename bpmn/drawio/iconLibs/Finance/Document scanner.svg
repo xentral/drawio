@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Document scanner">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M5 5.5h6M5 8h2m4 0H9m-4 2.5h2m4 0H9M6.1 1.67c-1.78.04-2.82.21-3.53.91-.62.62-.82 1.49-.89 2.89m4.42 8.86c-1.78-.04-2.82-.21-3.53-.91-.62-.62-.82-1.49-.89-2.89M1.6 8.25v-.5m12.8.5v-.5m-4.42 6.58c1.78-.04 2.82-.21 3.53-.91.62-.62.82-1.49.89-2.89M9.91 1.67c1.78.04 2.82.21 3.53.91.62.62.82 1.49.89 2.89" class="Icon"/>
+  </g>
+</svg>

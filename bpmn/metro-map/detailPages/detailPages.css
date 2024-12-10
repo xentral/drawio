@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+ul.deepLinks {
+    display: block;
+    list-style: none;
+}
+
+ul li {
+    padding: 3px 0px;
+}
+
+.tag {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #979797;
+}
+
+.tag.api {
+    background-color: #4d99cd;
+}
+
+.tag.helpdesk {
+    background-color: #85b187;
+}
+
+.tag.confluence {
+    background-color: #b180cf;
+}
+
+.tag.jira {
+    background-color: #e16b6b;
+}
+
+.tag.missing {
+    text-decoration: line-through;
+
+}
+

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <style>
+    .Icon {
+      stroke: black;
+    }
+  </style>
+  <g class="Accounting export">
+    <path stroke="#162A41" stroke-linecap="round" stroke-linejoin="round" d="M2 6.667h12M4.67 4h1.333m3.263-2.667H8c-2.828 0-4.243 0-5.121.879C2 3.091 2 4.505 2 7.333v1.334c0 2.828 0 4.242.879 5.121.878.879 2.293.879 5.121.879 2.828 0 4.243 0 5.121-.879.879-.879.879-2.293.879-5.121V7.333c0-.484 0-.927-.004-1.333M11.33 1.34h1.66a1 1 0 0 1 1 1V4m-.66-2-2 2M4.667 9.333h.35m2.808 0h.35m2.807 0h.351M4.667 12h.35m2.808 0h.35m2.807 0h.351" class="Icon"/>
+  </g>
+</svg>
