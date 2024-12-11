@@ -152,7 +152,7 @@ Draw.loadPlugin(function(ui) {
                         var detailUrl = attrs[i].nodeValue;
                         fetch(bpmnBaseUrl + detailUrl)
                             .then(response => response.text())
-                            .then(markdown => {
+                            .then(html => {
                                 div.innerHTML = html;
                             });
 
