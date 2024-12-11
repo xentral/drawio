@@ -45,3 +45,21 @@ ul li {
 
 }
 
+ul.academyList {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+ul.academyList li {
+    /* flex: 1 1 30%; /* Adjust the flex-basis as needed */
+    margin-bottom: 10px;
+}
+
+/* Optional: Add some spacing between videos */
+ul.academyList li:not(:last-child)  {
+    margin-right: 10px;
+}
