@@ -17,7 +17,7 @@ Draw.loadPlugin(function(ui) {
     div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
 
     var graph = ui.editor.graph;
-
+debugger;
     var bpmnBaseUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
     bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
 
