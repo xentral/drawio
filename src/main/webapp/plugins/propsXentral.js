@@ -162,11 +162,15 @@ debugger;
                                 div.innerHTML = html;
                             });
 
+                        return;
+
 
                         // var iframe = document.createElement('iframe');
                         // iframe.src = detailUrl;
                         // div.appendChild(iframe);
                     }
+
+                    div.style.display = 'none';
 
                 }
 
