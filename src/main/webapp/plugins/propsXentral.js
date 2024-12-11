@@ -18,8 +18,8 @@ Draw.loadPlugin(function(ui) {
 
     var graph = ui.editor.graph;
 debugger;
-    var bpmnBaseUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
-    bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
+    var bpmnBaseUrl = 'https://xentral.github.io/drawio/bpmn/metro-map/detailPages/';
+    // bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
 
     var bpmnStyleSheet = document.createElement('link');
     bpmnStyleSheet.rel = 'stylesheet';
