@@ -21,6 +21,12 @@ Draw.loadPlugin(function(ui) {
     var bpmnBaseUrl = 'https://legendary-adventure-ozg942n.pages.github.io/metro-map/detailPages/';
     bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
 
+    var bpmnStyleSheet = document.createElement('link');
+    bpmnStyleSheet.rel = 'stylesheet';
+    bpmnStyleSheet.type = 'text/css';
+    bpmnStyleSheet.href = bpmnBaseUrl + 'detailPages.css';
+    document.head.appendChild(bpmnStyleSheet);
+
     if (!ui.editor.isChromelessView())
     {
         div.style.boxSizing = 'border-box';
