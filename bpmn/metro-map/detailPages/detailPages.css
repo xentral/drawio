@@ -7,6 +7,7 @@ body {
 ul.deepLinks {
     display: block;
     list-style: none;
+    padding-left: 5px;
 }
 
 ul li {
@@ -28,6 +29,10 @@ ul li {
     background-color: #4d99cd;
 }
 
+.tag.events {
+    background-color: #4d99cd;
+}
+
 .tag.helpdesk {
     background-color: #85b187;
 }
@@ -40,7 +45,7 @@ ul li {
     background-color: #e16b6b;
 }
 
-.tag.missing {
+.tag:only-child {
     text-decoration: line-through;
 
 }
