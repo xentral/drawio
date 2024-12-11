@@ -153,9 +153,7 @@ Draw.loadPlugin(function(ui) {
                         fetch(bpmnBaseUrl + detailUrl)
                             .then(response => response.text())
                             .then(markdown => {
-                                const html = marked(markdown);
-                                const contentDiv = document.getElementById('div');
-                                contentDiv.innerHTML = html;
+                                div.innerHTML = html;
                             });
 
 
