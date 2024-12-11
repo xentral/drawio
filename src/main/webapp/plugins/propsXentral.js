@@ -148,6 +148,7 @@ Draw.loadPlugin(function(ui) {
                     if (attrs[i].nodeName === 'detailUrl') {
                         div.style.display = 'block';
 
+                        var bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
                         var detailUrl = attrs[i].nodeValue;
                         fetch(bpmnBaseUrl + detailUrl)
                             .then(response => response.text())
