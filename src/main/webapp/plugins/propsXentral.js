@@ -17,7 +17,7 @@ Draw.loadPlugin(function(ui) {
     div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
 
     var graph = ui.editor.graph;
-debugger;
+
     var bpmnBaseUrl = 'https://xentral.github.io/drawio/bpmn/metro-map/detailPages/';
     // bpmnBaseUrl = graph.model.root.getAttribute("bpmnBaseUrl");
 
