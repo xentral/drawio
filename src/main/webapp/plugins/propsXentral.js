@@ -7,13 +7,15 @@ Draw.loadPlugin(function(ui) {
     var div = document.createElement('div');
     div.style.background = Editor.isDarkMode() ? Editor.darkColor : '#ffffff';
     div.style.border = '1px solid gray';
-    div.style.opacity = '0.8';
+    // div.style.opacity = '0.8';
     div.style.padding = '10px';
     div.style.paddingTop = '0px';
     div.style.width = '20%';
     div.style.float = 'right';
     div.style.height = '100%';
     div.style.overflow = 'auto';
+    div.classList.add('bpmnSidePanel');
+    div.id = 'bpmnSidePanel';
     div.innerHTML = '<p><i>' + mxResources.get('nothingIsSelected') + '</i></p>';
 
     var graph = ui.editor.graph;
