@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="detailPages.css">
+</head>
+<body>
+<base target="_blank">
+<h1>Current issues in Delivery Handover</h1>
+<p>Our delivery handover is currently causing severe performance issues in many customer instances.</p>
+<p>A joint task force has been formed between FFU, SPS and SRE analysing root causes and implementing improvements to our logic. </p>
+<p>Key steps are:
+<ul>
+
+        <li class="task done"><b>Carve out unnecessary database queries:</b> fetch data once and persist in PHP variables rather than fetching over and over </li>
+        <li class="task wip"><b>Move non-time critical actions to worker queues</b> instead of doing everything synchronously</li>
+        <li class="task"><b>Indroduce pre-checks</b> to only calculate every sales order when stock is low</li>
+        <li class="task"><b>Introduce stock allocation table</b> which persists previously allocated quantities and allows for quick and cheap updates based on sales order and/or product</li>
+
+
+</ul></p>
+
+<hr/>
+<!-- <h2>Deep links</h2>
+<ul class="deepLinks">
+
+</ul>
+-->
+</body>
+</html>

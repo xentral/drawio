@@ -50,6 +50,28 @@ ul li {
 
 }
 
+li.task {
+    position: relative;
+    padding-left: 20px;
+    list-style: none;
+}
+li.task::before {
+    content: "\2610"; /* Unicode for an empty box */
+    position: absolute;
+    left: 0px;
+}
+li.task.wip::before {
+    content: "\270E"; /* Unicode for a pencil */
+    color: orange;
+}
+li.task.done::before {
+
+    content: "\2713"; /* Unicode for a checkmark */
+    position: absolute;
+    left: 0px;
+    color: green;
+}
+
 ul.academyList {
     list-style-type: none;
     padding: 5px 10px;
