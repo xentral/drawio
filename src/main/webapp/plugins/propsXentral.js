@@ -68,6 +68,7 @@ Draw.loadPlugin(function(ui) {
         div.style.minWidth = '200px';
         div.style.top = '0px';
         div.style.right = '0px';
+        div.style.display = 'none';
 
         document.body.appendChild(div);
     }
