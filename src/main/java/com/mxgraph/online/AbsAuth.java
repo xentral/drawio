@@ -428,6 +428,7 @@ abstract public class AbsAuth extends HttpServlet implements AbsComm
 				urlParamsObj.addProperty("client_id", client);
 				urlParamsObj.addProperty("redirect_uri", redirectUri);
 				urlParamsObj.addProperty("client_secret", secret);
+				urlParamsObj.addProperty("scope", "repo%20read:org");
 
 				if (code != null)
 				{
