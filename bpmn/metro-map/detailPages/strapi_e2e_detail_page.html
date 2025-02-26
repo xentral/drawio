@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="detailPages.css">
+</head>
+<body>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const contentId = urlParams.get('id');
+    const contentContainer = document.getElementById('content-container');
+    const strapiApiUrl = 'https://bpm-strapi.xentral.com/api/e2e-detail-pages'; // Replace with your Strapi API URL
+    const strapiApiToken = '3cc5463c2e1618e564ec8d1c54acbb5c880c041dfd5efdb22805f6815afb1396ca6d96dc3bf4570d19040659590957715700e10cef6d0b60af36d4b5e128d049a2a6991699890dbd3de8935f41587a0e108f100fe856eb1bdd81dd269b3a8556e3aa92ede8f3657882a3803de28f0f454fe1989ec66e1e50c956263f9d909f28'; // Replace with your Strapi API token
+
+    if (contentId) {
+        fetch(`${strapiApiUrl}/${contentId}`, {
+            headers: {
+                'Authorization': `Bearer ${strapiApiToken}`
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Assuming data contains the content from Strapi
+                contentContainer.innerHTML = `
+                    <h1>${data.title}</h1>
+                    <p>${data.description}</p>
+
+                    <hr/>
+                    <h2>Deep links</h2>
+                    <ul class="deepLinks">
+                        <li><span class="tag">Detail Processes</span> <a target="_blank" title="Procure-2-Pay VISION"
+                                                                         href="data:page/id,Gwp28GdF5v82YLQtcaNU"
+                                                                         rel="nofollow noopener noreferrer">Procure-2-Pay VISION</a></li>
+                        <li><span class="tag api">API Doku</span> <a href="https://developer.xentral.com/reference/salesorderlist-1">Sales
+                            Order LIST
+                            API (& more)</a></li>
+                        <li><span class="tag events">Events</span> <a href="https://xentral.github.io/api-spec-public/#:~:text=PUB-,salesOrder.created">Sales Order CREATED (& more)</a></li>
+                        <li><span class="tag helpdesk">Helpdesk</span><a
+                            href="https://help.xentral.com/hc/en-us/articles/6113604302620-Introduction-Sales-orders">Introduction:
+                            Sales Orders</a></li>
+                        <li><span class="tag academy">Academy Videos</span>(Placeholders)
+                            <ul class="academyList">
+                                <li>
+                                    <iframe width="280" height="160" src="https://www.youtube.com/embed/v9_p-UIfMIk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                </li>
+                                <li>
+                                    <iframe width="280" height="160" src="https://www.youtube.com/embed/3Jwinaq9vi0"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    `;
+            })
+            .catch(error => {
+                console.error('Error fetching content:', error);
+                contentContainer.innerHTML = `<p>Error loading content: ${error.message}</p>`;
+            });
+    } else {
+        contentContainer.innerHTML = '<p>No content ID specified.</p>';
+    }
+</script>
+<base target="_blank">
+<div id="content-container"></div>
+</body>
+</html>
